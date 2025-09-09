@@ -1,0 +1,58 @@
+<section class="container my-5" id="contact">
+  <div class="row">
+    <div class="col-lg-7">
+      <div class="card shadow-sm p-4">
+        <h2 class="card-title text-center mb-4">Solicite seu Orçamento Gratuito via WhatsApp</h2>
+        <form (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" [(ngModel)]="contactForm.name" name="name" class="form-control" id="name"
+              placeholder="Seu Nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="modelo" class="form-label">Modelo Ferramenta</label>
+            <input type="text" [(ngModel)]="contactForm.ferramenta" name="modelo" class="form-control" id="modelo"
+              placeholder="Ex: Serra marmore" required>
+          </div>
+          <div class="mb-3">
+            <label for="marca" class="form-label">Marca</label>
+            <input type="text" [(ngModel)]="contactForm.marca" name="marca" class="form-control" id="marca"
+              placeholder="Ex: Makita" required>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-warning btn-lg">Enviar Orçamento</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-lg-5 mt-4 mt-lg-0">
+      <div class="card shadow-sm p-4 h-100">
+        <h3 class="card-title text-center mb-4">Nossos Contatos</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex align-items-center">
+            <i class="bi bi-geo-alt-fill me-3 fs-4 text-primary"></i>
+            <div>
+              <strong>Endereço</strong>
+              <p class="mb-0">Rua São Miguel, 170 Casa 6 - Bairro Itapoã - Belo Horizonte, MG</p>
+            </div>
+          </li>
+          <li class="list-group-item d-flex align-items-center">
+            <i class="bi bi-whatsapp me-3 fs-4 text-success"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <p class="mb-0">(31) 99438-0188</p>
+            </div>
+          </li>
+          <li class="list-group-item d-flex align-items-center">
+            <i class="bi bi-envelope-fill me-3 fs-4 text-warning"></i>
+            <div>
+              <strong>E-mail</strong>
+              <p class="mb-0">ayauriba@yahoo.com</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
