@@ -2,34 +2,34 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/Angelo-Solucoes/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/Angelo-Solucoes"
   },
   {
     "renderMode": 2,
-    "route": "/serviços"
+    "route": "/Angelo-Solucoes/serviços"
   },
   {
     "renderMode": 2,
-    "route": "/contatos"
+    "route": "/Angelo-Solucoes/contatos"
   },
   {
     "renderMode": 2,
-    "route": "/sobrenós"
+    "route": "/Angelo-Solucoes/sobrenós"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 38782, hash: 'c3c92fdd70c244caeeae24533fd21b7695ee2e48dc4835839b61b5909f973181', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1009, hash: '9644d49ab228d2387f5d3df59fe9518e054c0f5d4adf42c97509b49ea71baec1', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'contatos/index.html': {size: 87696, hash: '6653cf433cc0618c28be1fe510b4355b65b5517dd3fae8c9e8d63b441fdd4d89', text: () => import('./assets-chunks/contatos_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 87079, hash: '1c91663683804dd1fd7232aad75e5982d4dedc8967d3a3fe1301cb63cc648c58', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'sobrenós/index.html': {size: 86417, hash: '3b8b16c67835e8fb9a060815190179c1afe7f06a13ab3385c4d9fea4c5760893', text: () => import('./assets-chunks/sobrenós_index_html.mjs').then(m => m.default)},
-    'serviços/index.html': {size: 87395, hash: 'bc830c0ef02ef846ab8512ebe1c00e00af6bccd8394982b49e81a4b20cd9972a', text: () => import('./assets-chunks/serviços_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 38798, hash: 'cd029f1127028858979fd745b4f8b25969d1f37f08922a410a8d46b3cad2b70c', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1025, hash: '895ef3b0d5b1635c563d628a2a489f5c1370d329e654f4b2b2a2ae86cb3fc5b7', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'serviços/index.html': {size: 87411, hash: '76324a965fdcd31698b7501f4571fd3492ba96c6a4bf942120b3328a9a2ee6f7', text: () => import('./assets-chunks/serviços_index_html.mjs').then(m => m.default)},
+    'contatos/index.html': {size: 87712, hash: 'f2eaee5806ed71134f8066c8f3d0236126ec975109a4d4ef67a43f08f25496d5', text: () => import('./assets-chunks/contatos_index_html.mjs').then(m => m.default)},
+    'sobrenós/index.html': {size: 86433, hash: 'afe64a78fadc4a8b72918cf7ea8405a70744cdd7a75a3818d12462ca7debdcea', text: () => import('./assets-chunks/sobrenós_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 87095, hash: '8f5b2d7251381051279692277b899cd4b20f321696e8433b5730b39db14c9c97', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-BRXK3OWB.css': {size: 468170, hash: 'UevtBFJQ7Ek', text: () => import('./assets-chunks/styles-BRXK3OWB_css.mjs').then(m => m.default)}
   },
 };

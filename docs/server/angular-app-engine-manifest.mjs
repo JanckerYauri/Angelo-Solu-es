@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/Angelo-Solucoes',
   supportedLocales: {
   "en-US": ""
 },
