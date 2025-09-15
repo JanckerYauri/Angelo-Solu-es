@@ -1,8 +1,3 @@
 {
-  "routes": {
-    "/Angelo-Solu-es": {},
-    "/Angelo-Solu-es/contatos": {},
-    "/Angelo-Solu-es/serviços": {},
-    "/Angelo-Solu-es/sobrenós": {}
-  }
+  "routes": {}
 }
